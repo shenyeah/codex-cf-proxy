@@ -1,0 +1,13 @@
+name = "codex-cf-proxy"
+main = "src/index.js"
+compatibility_date = "2026-04-01"
+
+# 上游 API 地址 (默认 https://api.deepseek.com/v1)
+# 可换成你的中转站地址
+# UPSTREAM_BASE_URL = "https://api.deepseek.com/v1"
+
+# 上游 API Key (也可通过请求头 x-api-key 传入)
+# UPSTREAM_API_KEY = "sk-xxxxxxxxxxxxxxxx"
+
+# 模型名称 (默认 deepseek-chat)
+# MODEL_NAME = "deepseek-chat"
